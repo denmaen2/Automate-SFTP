@@ -1,0 +1,9 @@
+pip install wheel
+pip install numpy
+pip install pandas
+pip install flask
+pip install redis
+pip install fakeredis
+pip install plotly
+pip install apscheduler
+pip install flask-cors

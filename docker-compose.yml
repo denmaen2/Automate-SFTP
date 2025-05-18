@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./exchange_results:/app/exchange_results
+    environment:
+      - FLASK_APP=app.py
+      - UPDATE_INTERVAL=21600
